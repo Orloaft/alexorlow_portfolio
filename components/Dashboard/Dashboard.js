@@ -1,4 +1,5 @@
 import styles from "../Dashboard/Dashboard.module.scss";
+import { Navbar } from "../Navbar/Navbar";
 
 export const Dashboard = () => {
   return (
@@ -14,6 +15,7 @@ export const Dashboard = () => {
       main course green onions. Cool cucumbers mocha chocolate cherry bomb salad
       dragon fruit tofu green grapes sesame soba noodles hazelnut shiitake
       mangos blueberry chia seed jam roasted peanuts.
+      <Navbar />
     </div>
   );
 };

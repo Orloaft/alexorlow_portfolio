@@ -1,0 +1,9 @@
+.navbar {
+  list-style: none;
+  padding: 0;
+  &__item {
+    text-decoration: none;
+    border: 2px solid purple;
+    padding: 2rem;
+  }
+}
