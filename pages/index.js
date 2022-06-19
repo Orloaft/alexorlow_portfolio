@@ -1,5 +1,5 @@
 import styles from "../styles/Home.module.css";
-import { Dashboard } from "../components/Dashboard/Dashboard";
+import Dashboard from "./Dashboard.js";
 
 export default function Home() {
   return (

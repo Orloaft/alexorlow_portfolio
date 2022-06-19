@@ -5,14 +5,21 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "PORT=3000 node main-server.js",
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "he": "^1.2.0",
     "next": "12.1.6",
+    "next-auth": "^4.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.52.3"
+    "sass": "^1.52.3",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
     "eslint": "8.17.0",

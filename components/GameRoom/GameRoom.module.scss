@@ -1,0 +1,48 @@
+@use "../../styles/partials/variables" as *;
+.time {
+  color: var(--border-color);
+  font-size: 2rem;
+  @media (min-width: 48rem) {
+    font-size: 4rem;
+  }
+}
+
+.question {
+  font-size: 2rem;
+  display: flex;
+  color: var(--border-color);
+  flex-direction: column;
+  max-width: 100%;
+}
+.answer {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: var(--border-color);
+  border-style: none;
+  background-color: transparent;
+  border-radius: 1rem;
+  border: 2px solid var(--border-color);
+  &:hover {
+    background-color: var(--hover-color);
+    color: black;
+    border: 2px solid black;
+  }
+}
+.answered {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: black;
+  border-style: none;
+  background-color: gray;
+  border-radius: 1rem;
+  border: 2px solid var(--border-color);
+}
+.score_container {
+  width: 100%;
+  align-self: center;
+  display: flex;
+}
+.score {
+  color: var(--font-color);
+  font-size: 2rem;
+}
